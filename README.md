@@ -40,21 +40,21 @@ The analysis explores how stations are connected, identifies major hubs, and pro
 ---
 
 ## 🧠 Methodology
-1️⃣ Data Preparation
-Cleaned and filtered columns (train number, station names, distances, etc.).
-Extracted unique nodes and edge weights.
+1️⃣ Data Preparation  
+Cleaned and filtered columns (train number, station names, distances, etc.).  
+Extracted unique nodes and edge weights.  
 
-2️⃣ Network Construction
-Created weighted undirected graphs using igraph and network libraries.
-Visualized the network.
+2️⃣ Network Construction  
+Created weighted undirected graphs using igraph and network libraries.  
+Visualized the network.  
 
-3️⃣ Centrality Analysis
-Calculated 15 centrality measures to evaluate node importance:
-Degree, Closeness, Betweenness, Eigenvector
-Subgraph, PageRank, Alpha, Kleinberg
-Entropy, Laplacian, Harmonic, Semi-local, Local Bridging, Leverage, and Dangalchev Closeness
+3️⃣ Centrality Analysis  
+Calculated 15 centrality measures to evaluate node importance:  
+Degree, Closeness, Betweenness, Eigenvector  
+Subgraph, PageRank, Alpha, Kleinberg  
+Entropy, Laplacian, Harmonic, Semi-local, Local Bridging, Leverage, and Dangalchev Closeness  
 
-The node with the highest centrality across these metrics was identified as the most critical station.
+The node with the highest centrality across these metrics was identified as the most critical station.  
 
 ---
 
